@@ -77,6 +77,24 @@ footer {
   background-color: #AAAAAA;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
+  main {
+    width: 100%;
+    margin-bottom: 50px;
+  }
 
+  .content {
+    width: 100%;
+    display: block;
+  }
+
+  .content-item {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+  }
+  
+  
+  
   }
